@@ -1,0 +1,487 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  height: 95vh;
+  background-color: rgb(223, 113, 11);
+}
+.side1{
+    position: absolute;
+    height: 60vh;
+    width: 19%;
+    padding-top: 170px;
+}
+.nav {
+  height: 13vh;
+  width: 100%;
+  display: flex;
+  /* background-color: blue; */
+}
+.navimg {
+  width: 47%;
+  height: 13vh;
+  display: flex;
+
+  /* background-color: gray; */
+}
+.navimg img {
+  height: 45px;
+  width: 140px;
+  padding-left: 180px;
+  padding-top: 42px;
+}
+.navitem {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  height: 13vh;
+}
+.navitem .item {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 45px;
+}
+
+.bb .nb1 {
+  height: 50px;
+  width: 190px;
+  background-color: red;
+  border: 1px solid white;
+  color: white;
+  font-size: 14px;
+  border-radius: 13px;
+  margin-top: 35px;
+}
+.nb1 img{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.bb .nb2 {
+  height: 50px;
+  width: 140px;
+  color: white;
+  font-size: 14px;
+  background-color: black;
+  border: 1px solid gray;
+  border-radius: 13px;
+}
+.submain1 {
+  width: 100%;
+  height: 40%;
+
+  /* background-color: blue; */
+}
+.submain1 .hed{
+    padding-left: 460px;
+    padding-top: 70px;
+}
+.submain1 .hed1 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  
+}
+.submain1 .hed2 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  padding-left: 70px;
+}
+
+.mainbtn{
+    padding-left: 450px;
+    padding-top: 40px;
+    height: 20vh;
+    display: flex;
+    width: 70%;
+    gap: 20px;
+}
+
+
+
+
+.mbt1{
+  height: 60px;
+  width: 270px;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  color: gray;
+  border: 1px solid gray;
+  
+}
+.mbt2{
+  height: 60px;
+  width: 500px;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  color: gray;
+  padding-right: 190px;
+  border: 1px solid gray;
+}
+.submain2 {
+  display: flex;
+  justify-content: center;
+}
+.submain2 .img1 {
+  height: 40vh;
+  width: 350px;
+}
+.submain2 .img2 {
+  height: 40vh;
+  width: 350px;
+}
+.submain2 .img3 {
+  height: 40vh;
+  width: 350px;
+}
+.sideimg{
+  
+}
+/* .side2{
+    position: absolute;
+    height: 60vh;
+    width: 19%;
+    margin-bottom: 90px;
+    padding-left: 81%;
+} */
+.second{
+
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secmain{
+  height: 50vh;
+  width: 80%;
+}
+.sec1{
+  height: 25vh;
+  width: 100%;
+}
+.secmain img{
+  width: 170px;
+  height: 190px;
+}
+.third{
+  height: 45vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blueviolet; */
+}
+
+.thirdsub{
+  height: 30vh;
+  width: 80%;
+}
+
+.thirdtwo{
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  padding-top: 30px;
+  /* background-color: blue; */
+}
+.thirdtwo img{
+  height: 190px;
+  width: 190px;
+}
+.card{
+  width: 190px;
+  height: 250px;
+  font-size: 24px;
+  color: rgb(50, 47, 47);
+}
+.four{
+  height: 80vh;
+  width: 100%;
+  /* background-color: black; */
+}
+.four h2{
+  font-size: 26px;
+  height: 50px;
+  padding-left: 150px;
+  padding-top: 40px;
+}
+.four .restaurant{
+  height: 60vh;
+  width: 90%;
+  margin-left: 110px;
+  display: flex;
+  gap: 22px;
+}
+.box1{
+  height:55vh;
+  width: 330px;
+  border-radius: 17px;
+}
+.box1 img{
+  height: 230px;
+  width: 330px;
+  border-radius: 17px;
+}
+.box2 img{
+  height: 230px;
+  width: 330px;
+    border-radius: 17px;
+
+}
+.box3 img{
+  height: 230px;
+  width: 330px;
+    border-radius: 17px;
+
+}
+.box4 img{
+  height: 230px;
+  width: 330px;
+    border-radius: 17px;
+
+}
+.box2{
+  height:55vh;
+  width: 330px;
+}
+.box3{
+  height:55vh;
+  width: 330px;
+}
+
+.box4{
+  height:55vh;
+  width: 330px;
+}
+.subbox1{
+
+    width: 290px;
+    height: 200px;
+}
+
+.subbox1 h1{
+
+    font-size: 15px;
+    color: rgb(74, 73, 73);
+    height: 20px;
+}
+
+.subbox1 p{
+
+     font-size: 17px;
+    color: rgb(74, 73, 73);
+    height: 30px;
+}
+
+.subbox1 .rest1{
+
+    border: 1px solid grey;
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: rgb(207, 197, 197);
+   
+}
+
+.subbox1 .btn1{
+
+border: 1px solid grey;
+width: 290px;
+height: 35px;
+margin-top: 20px;
+border-radius: 10px;
+background-color: rgb(6, 165, 101);
+color: white;
+font-size: 15px;
+}
+.subbox1 .btn2{
+
+    border: 1px solid grey;
+width: 290px;
+height: 35px;
+margin-top: 14px;
+border-radius: 10px;
+background-color: rgb(145, 211, 185);
+color: rgb(33, 175, 104);
+font-size: 15px;
+}
+
+
+.five{
+  height: 38vh;
+  width: 100%;
+  background-image: url("./images/Order Food & Groceries. Discover the best restaurants. Swiggy it!_files/App_download_banner.png");
+  background-position: center;
+  background-size: cover;
+}
+
+
+.six{
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subsix{
+  height: 30vh;
+  width: 80%;
+}
+.subsix h2{
+  font-size: 26px;
+}
+.row1{
+  height: 65px;
+  width: 100%;
+  padding-top: 15px;
+}
+.row2{
+  height: 65px;
+  width: 100%;
+  padding-top: 15px;
+}
+.row3{
+  height: 65px;
+  width: 100%;
+  padding-top: 15px;
+  
+}
+.subsix .btn1{
+  width: 280px;
+  height: 60px;
+  margin: 6px;
+    background-color: white;
+  border-radius: 13px;
+  border: 1px solid gray;
+  font-size: 13px;
+}
+.subsix .btn2{
+  width: 280px;
+  height: 60px;
+  margin: 6px;
+    background-color: white;
+  border-radius: 13px;
+  border: 1px solid gray;
+  color: red;
+  font-size: 13px;
+}
+.seven{
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subseven{
+  height: 30vh;
+  width: 80%;
+}
+.subseven h2{
+  font-size: 26px;
+}
+.subseven .row4{
+  height: 65px;
+  width: 100%;
+  padding-top: 15px;
+}
+.subseven .row5{
+  height: 65px;
+  width: 100%;
+  padding-top: 15px;
+}
+.subseven .row6{
+  height: 65px;
+  width: 100%;
+  padding-top: 15px;
+  
+}
+.subseven .btn3{
+  width: 280px;
+  height: 60px;
+  margin: 6px;
+    background-color: white;
+  border-radius: 13px;
+  border: 1px solid gray;
+  font-size: 13px;
+}
+.subseven .btn4{
+   width: 280px;
+  height: 60px;
+  margin: 6px;
+    background-color: white;
+  border-radius: 13px;
+  border: 1px solid gray;
+  color: red;
+  font-size: 13px;
+}
+.eight{
+  height: 80vh;
+  width: 100%;
+  
+  background-color: rgba(184, 226, 226, 0.91);
+}
+.subeight{
+  height: 60vh;
+  width: 90%;
+  display: flex;
+  margin-left: 110px;
+  border-bottom: 1px solid gray;
+  /* background-color: blue; */
+}
+.swiggylog{
+  height: 40px;
+  width: 20%;
+  padding-left: 80px;
+  padding-top: 40px;
+}
+.swiggylog img{
+  width: 130px;
+  height: 40px;
+}
+.footer{
+  height: 60vh;
+  width: 20%;
+  gap: 20p;
+  /* display: flex; */
+  /* background-color: red; */
+}
+.notfoot{
+  width: 70%;
+  height: 50vh;
+  display: flex;
+  gap: 30px;
+margin-top: 78px;
+  /* background-color: green; */
+  
+}
+.footer .footname1{
+  font-size: 22px;
+  font-weight: bold;
+}
+.footname{
+  font-size: 19px;
+ color: gray;
+}
+.logitech{
+  height: 20vh;
+  width: 70%;
+  gap: 30px;
+  display: flex;
+  margin-left: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logitech h1{
+ font-size: 33px;
+ color:rgb(126, 122, 122);
+}
+
